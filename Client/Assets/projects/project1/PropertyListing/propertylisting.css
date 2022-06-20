@@ -1,0 +1,42 @@
+#allpage
+{
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 3px solid #ffffff;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #ffffff;
+	padding: 8px;
+	background-color: rgb(235, 231, 221);
+	
+	
+}
+p
+{
+	text-align: center;
+}
+body
+{
+	background-image: url('background2.png')  ;
+
+}
+h1{
+	text-align: center;
+}
+
+img {border-style:solid; }
+a { text-decoration: none;
+             font-style: italic;  
+             color: #333; }
+span {display: none; }
+a:hover span {display: block;     
+position: absolute;
+top: auto;
+right: 200px; 
+
+text-align: center; }
+header
+{
+	text-align: center;
+}
+

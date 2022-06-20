@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Contact Form</title>
+<meta content="contact form , real state " name="keywords">
+<meta content="real state , real state agent , contact , contact me" name="description">
+<link href="contactForm.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="allPage" >
+    <header>
+        <img  src="logo.svg"  alt="real estate logo "  width="200" lengt="100"  > </a>
+        <h1>REALTOR.CA COMPANY</h1><br>
+        <h1>contact Form</h1>
+    </header>
+    <main>
+        <form action="mailto:aalkhdou@mycentennialcollege.ca" method="post">
+            <table style="width: 100%" >
+                <tr>Please complete your own preferences for the type of property you are interested in : </tr>
+                <tr ><td class="Specific" ><b>Personal Information </b></td></tr>
+                <tr>
+                    <td class="fieldLabel" >First Name :</td>
+                    <td> <input name="txtcoursetName" size="30" tabindex="1" type="text"></td>
+                </tr>
+                <tr>
+                    <td class="fieldLabel" >Last Name:</td>
+                    <td> <input name="txtcoursetName" size="30" tabindex="3" type="text"></td>
+                </tr>
+                <tr>
+                    <td class="fieldLabel"  >
+                        <label for="txtEmail">Email:</label> </td>  
+                         <td><input id="txtEmail" name="txtEmail" size="30" tabindex="5" type="email" placeholder="someone@someplace.ca" required="required">
+                            </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Tel: </td>
+                            <td> <input type = "tel" placeholder = "(###) ###-####"  tabindex="7"
+                              pattern = "\(\d{3}\) +\d{3}-\d{4}" required /> 
+                              (###) ###-####
+                        </label> </td>
+                     
+                </tr>
+                <tr ><td class="Specific" ><b>Property Information  </b></td></tr>
+                <tr>
+                    <td class="fieldLabel" > Type of property  :</td>
+                    <td><input name="optprop" tabindex="9" type="radio" value="house">House
+                        <input name="optprop" tabindex="11" type="radio" value="condominium">condominium
+                        
+                    <tr>
+                        <td>  <label for="listPrice" >Price Range: </label></td>
+                                <td> <li >
+                                <select  name="listPrice" tabindex="13" required>
+                                <option value="0-500000">$0 - $500,000</option>
+                                <option value="500000-1000000">$500,000 - $1,000,000</option>
+                                <option value="1000000-1500000">$1,000,000 - $1,500,000</option>
+                                <option value="1500000-2000000">$1,500,000 - $2,000,000</option>
+                                <option value="2000000+"> more than $2,000,000 </option>
+                                </select>
+                                </li>
+                        </td>
+                    </tr>
+                </tr>
+                <tr>
+                    <td class="fieldLabel" > Number of BedRooms  :</td>
+                    <td>
+                        <label>
+                           <input type = "number"  tabindex="15"
+                              min = "0"
+                              max = "25"
+                              step = "1"
+                              value = "0" />
+                        </label> 
+                    </td>>
+                </tr>
+                <tr>
+                    <td class="fieldLabel" > Number of BathRooms  :</td>
+                    <td>
+                        <label>
+                           <input type = "number"  tabindex="17"
+                              min = "0"
+                              max = "10"
+                              step = "1"
+                              value = "0" />
+                        </label> 
+                    </td>>
+                </tr>
+                
+                <tr>
+                    <td class="fieldLabel">Additional comments</td>
+                    <td> <textarea cols="100" name="txtOthers" rows="7" tabindex="19">-- Please write any Comment -- </textarea></td>
+                </tr>
+
+            </table>
+            <p>
+                <input type = "submit" value = "Submit Form" />
+                <input type = "reset" value = "Clear Form" />
+             </p> 
+             <a id="Back" href="../RealEstate.html" title="Back to my home "> Back to Home page </a>
+
+        </form>
+        <div id="pagebuttom" >
+            <h4 >Thank You! We Will Contact you Soon</h4>
+        </div>
+        <footer>Copyright &copy; Ala'a Al-khdour  </footer>
+    </main>
+    
+</div>
+
+
+</body>

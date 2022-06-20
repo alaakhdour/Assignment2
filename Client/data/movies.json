@@ -1,0 +1,23 @@
+{
+    "contacts":
+    [
+        {
+            "Name": "Star Wars",
+            "Email": "1977",
+            "PhoneNumber": "George Lucas",
+            "Rating": "4 Stars"
+        },
+        {
+            "Name": "Spider-Man: No Way Home",
+            "Email": "2021",
+            "PhoneNumber": "Jon Watts",
+            "Rating": "4.5 Stars"
+        },
+        {
+            "Name": "Everything Everywhere All at Once",
+            "Email": "2022",
+            "PhoneNumber": "Dan Kwan",
+            "Rating": "5.0 Stars"
+        }
+    ]
+}
