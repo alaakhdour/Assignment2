@@ -3,7 +3,7 @@
   "version": "0.0.3",
   "description": "Demo Project for COMP229 in the Summer 2022 semester for Lesson 6",
   "main": "server.js",
-  "author": "Alaa ",
+  "author": "Tom Tsiliopoulos",
   "license": "MIT",
   "private": true,
   "scripts": {
