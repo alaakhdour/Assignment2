@@ -1,5 +1,3 @@
-/** Alaa khdour -30123016 (jun 2022) */
-
 import express from 'express';
 const router = express.Router();
 
